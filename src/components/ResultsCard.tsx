@@ -1,6 +1,8 @@
 import { useEffect, useState } from 'react'
 import { CardItems } from './CardItems'
 
+import '../styles/resultCard.scss'
+
 interface Repository {
   season: string
   raceName: string

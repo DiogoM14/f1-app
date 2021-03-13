@@ -1,7 +1,9 @@
+import '../styles/header.scss'
+
 export function Header() {
   return (
-    <div>
-      <h1>F1 Statista</h1>
+    <div className="headerContainer">
+      <h1>F1 Statista - 2020</h1>
     </div>
   )
 }

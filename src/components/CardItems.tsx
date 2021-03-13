@@ -11,7 +11,12 @@ interface CardItemsProps {
 export function CardItems({ season, raceName, name, familyName, givenName, nationality, permanentNumber }: CardItemsProps) {
   return (
     <>
-      <h1>{season}</h1>
+      <li>
+        <h3>{raceName} - {season}</h3>
+        <p>Equipa vencedora - {name}</p>
+        <p>Piloto vencedor - {givenName} {familyName} {permanentNumber}</p>
+        <p>Nacionalidade do piloto - {nationality}</p>
+      </li>
     </>
   )
 }

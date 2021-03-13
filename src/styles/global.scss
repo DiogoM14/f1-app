@@ -5,8 +5,13 @@
 }
 
 body {
+  max-width: 1080px;
+  height: 100vh;
+  margin: 0 auto;
+  padding: 16px 24px;
+  
   font: 16px "Roboto", Arial, sans-serif;
-  color: #e1e1e6;
 
-  background: #121214;
+  color: #e1e1e6;
+  background: #121216;
 }
